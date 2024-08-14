@@ -4,3 +4,23 @@
 .rodape__link{
     margin: 1em;
 }
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+    .rodape {
+        flex-direction: column; /* Stack icons vertically on mobile */
+        align-items: center; /* Center the icons */
+        margin: 2em 1em; /* Reduce and center margins */
+    }
+
+    .rodape__link {
+        margin: 0.5em 1em; /* Reduce margin for better spacing on mobile */
+    }
+}
+
+/* Further adjustments for very small screens */
+@media (max-width: 480px) {
+    .rodape__link img {
+        width: 40px; /* Adjust icon size for small screens */
+        height: auto; /* Maintain aspect ratio */
+    }
+}

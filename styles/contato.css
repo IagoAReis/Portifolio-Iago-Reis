@@ -52,3 +52,56 @@
     font-family: var(--fonte-titulo);
     color: var(--branco);
 }
+
+/* Media query for tablets and smaller screens */
+@media (max-width: 768px) {
+    .contato {
+        margin: 2em 1em; /* Reduce margin */
+    }
+
+    .contato__titulo {
+        margin-left: 0; /* Center the title */
+        font-size: 1.3em; /* Reduce font size */
+        text-align: center; /* Center align text */
+    }
+
+    .contato__corpo {
+        margin-left: 0; /* Remove left margin */
+        align-items: center; /* Center align the content */
+    }
+
+    .contato__corpo-telefone,
+    .contato__corpo-email,
+    .contato__corpo-linkedin,
+    .contato__corpo-git {
+        font-size: 20px; /* Adjust font size */
+        text-align: center; /* Center align text */
+    }
+
+    .contato__rodape-texto {
+        font-size: 1.3em; /* Adjust font size */
+        text-align: center; /* Center align text */
+    }
+}
+
+/* Media query for small mobile devices */
+@media (max-width: 480px) {
+    .contato {
+        margin: 1em; /* Further reduce margin */
+    }
+
+    .contato__titulo {
+        font-size: 1.2em; /* Further reduce font size */
+    }
+
+    .contato__corpo-telefone,
+    .contato__corpo-email,
+    .contato__corpo-linkedin,
+    .contato__corpo-git {
+        font-size: 18px; /* Further reduce font size */
+    }
+
+    .contato__rodape-texto {
+        font-size: 1.2em; /* Further adjust font size */
+    }
+}
