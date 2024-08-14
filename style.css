@@ -1,0 +1,21 @@
+@import url(styles/cabecalho.css);
+@import url(styles/corpo.css);
+@import url(styles/rodape.css);
+@import url(styles/contato.css);
+
+:root{
+    --azul-fundo: #0A1922;
+    --azul-titulo:  #07776E;
+    --azul-claro:#72d4cc;
+    --branco: #ffff;
+    --fonte-principal: 'Codec Pro', sans-serif;
+    --fonte-titulo: 'Bungee', sans-serif;
+}
+
+body{
+    background-color: var(--azul-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--branco);
+}

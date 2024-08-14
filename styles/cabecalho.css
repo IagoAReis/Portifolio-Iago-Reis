@@ -1,0 +1,44 @@
+.cabecalho__menu{
+    display: flex;
+    padding: 2em;
+}
+.d20{
+    
+    width: 8%;
+    height: 4%;
+    margin-top: 1em;
+}
+.menu__link{
+    display: flex;
+    align-content: center;
+    text-decoration: none;
+    color: var(--branco);
+    margin: 2em;
+    font-family: var(--fonte-titulo);
+    font-size: 1.5em;
+    padding-left: 10em;
+}
+
+.menu__link:hover{
+    color: var(--azul-titulo);
+}
+
+@media (max-width: 768px) {
+    .cabecalho__menu {
+        flex-direction: column;
+        padding: 1em;
+    }
+
+    .d20 {
+        width: 20%;
+        margin: 0;
+    }
+
+    
+
+    .menu__link {
+        margin: 1em 0;
+        padding-left: 0;
+        font-size: 1.2em;
+    }
+}
