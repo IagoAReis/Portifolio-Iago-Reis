@@ -1,0 +1,54 @@
+.contato{
+    display: flex;
+    flex-direction: column;
+    margin: 2em 0 0 10em
+}
+.contato__titulo{
+    margin-left: 1.5em;
+    margin-bottom: 1em;
+    font-family: var(--fonte-titulo);
+    font-size: 1.5em;
+}
+.contato__corpo{
+    margin-left: 2em;
+}
+.contato__corpo-telefone{
+    margin: 2em;
+    font-size: 24px;
+    font-family: var(--fonte-titulo);
+}
+.contato__corpo-email{
+    margin: 2em;
+    font-size: 24px;
+    font-family: var(--fonte-titulo);
+}
+.contato__corpo-linkedin{
+    margin: 2em;
+    font-size: 24px;
+    font-family: var(--fonte-titulo);
+}
+.contato__corpo-git{
+    margin: 2em;
+    font-size: 24px;
+    font-family: var(--fonte-titulo);
+}
+.contato__link{
+    text-decoration: none;
+    color: var(--branco);
+    margin-left: 0.5em;
+    font-family: var(--fonte-principal);
+}
+.contato__link:hover{
+    font-family: var(--fonte-titulo);
+    color: var(--azul-titulo);
+}
+.contato__rodape{
+    margin: 2em;
+}
+.contato__rodape-texto{
+    margin-left: 1em;
+    font-size: 1.5em;
+    text-decoration: none;
+    font-family: var(--fonte-titulo);
+    color: var(--branco);
+}
